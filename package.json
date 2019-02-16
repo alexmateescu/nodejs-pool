@@ -1,19 +1,13 @@
 {
   "name": "nodejs-pool",
   "version": "0.0.1",
-  "description": "Fairly simple universal cryptonote pool",
+  "description": "IMproved version of Snipa22 nodejs-pool",
   "main": "init.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Venthos/nodejs-pool.git"
+    "url": "https://github.com/MoneroOcean/nodejs-pool.git"
   },
-  "author": "Alexander Blair",
-  "contributors": [
-    {
-      "name": "Brian Oates",
-      "email": "venthos@venthos.net"
-    }
-  ],
+  "author": "Multiple",
   "license": "MIT",
   "dependencies": {
     "async": "2.1.4",
@@ -26,14 +20,14 @@
     "concat-stream": "^1.6.0",
     "cors": "^2.8.1",
     "crypto": "0.0.3",
-    "debug": "2.5.1",
+    "debug": "2.6.9",
     "express": "4.14.0",
+    "apicache": "1.2.1",
     "jsonwebtoken": "^7.2.1",
     "minimist": "1.2.0",
-    "moment": "2.19.3",
+    "moment": "2.21.0",
     "mysql": "2.15.0",
     "node-lmdb": "0.4.12",
-    "nodemailer": "^4.6.4",
     "promise-mysql": "3.0.0",
     "protocol-buffers": "^3.2.1",
     "range": "0.0.3",
@@ -46,11 +40,13 @@
     "sticky-cluster": "^0.3.1",
     "uuid": "3.0.1",
     "wallet-address-validator": "0.1.0",
-    "zmq": "^2.15.3"
-  },
-  "optionalDependencies": {
-    "cryptonote-util": "git+https://github.com/alloyproject/cryptonote-util.git",
-    "forknote-util": "git+https://github.com/wallet42/node-forknote-util.git",
-    "multi-hashing": "git+https://github.com/alloyproject/multi-hashing-alloy.git"
+    "zmq": "^2.15.3",
+    "sleep": "^5.2.3",
+    "cryptoforknote-util": "git+https://github.com/MoneroOcean/node-cryptoforknote-util.git#v4.0.2",
+    "turtlecoin-cryptonote-util": "git://github.com/turtlecoin/node-cryptonote-util.git",
+    "turtlecoin-multi-hashing": "git://github.com/turtlecoin/node8-multi-hashing.git",
+    "cryptonote-util": "git://github.com/masari-project/node-cryptonote-util#msr",
+    "cryptonight-hashing": "git://github.com/MoneroOcean/node-cryptonight-hashing.git",
+    "nodemailer": "^4.6.4"
   }
 }
